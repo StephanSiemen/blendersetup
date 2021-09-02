@@ -17,4 +17,4 @@ if [ ! -f ${BL_FILE} ]; then
    tar -xf $BL_FILE
 fi
 
-blender-2.93.4-linux-x64/blender -b --python ${LOC}/${SCRIPT} -noaudio -E 'CYCLES' -f 1 -F 'PNG'
+blender-2.93.4-linux-x64/blender -b --python ${LOC}/${SCRIPT} -noaudio -E 'CYCLES' -o //render_ -f 1 -F 'PNG'
