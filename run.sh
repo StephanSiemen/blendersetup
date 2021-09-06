@@ -3,7 +3,7 @@
 #
 # prereq on CentOS: 
 #     sudo yum install libX11 libXi libXrender libXxf86vm libXfixes
-#
+#     sudo yum install ImageMagick
 
 SCRIPT='GlobeTexture_withHeight.py'
 
