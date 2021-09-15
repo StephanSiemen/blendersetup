@@ -1,7 +1,7 @@
 import bpy
 
-texture_file1 = "plots/temperature.png"
-texture_file2 = "plots/rainfall.png"
+texture_file1 = "//plots/temperature.png"
+texture_file2 = "//plots/rainfall.png"
 
 globe = bpy.ops.mesh.primitive_uv_sphere_add(segments=180, ring_count=180, radius=2)
 
