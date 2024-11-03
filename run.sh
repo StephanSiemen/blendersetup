@@ -1,10 +1,5 @@
 #!/bin/bash
 
-#
-# prereq on CentOS: 
-#     sudo yum install libX11 libXi libXrender libXxf86vm libXfixes
-#     sudo yum install ImageMagick
-
 SCRIPT='GlobeTexture_withHeight.py'
 
 BL_FILE='blender-4.2.2-linux-x64.tar.xz'
@@ -17,6 +12,4 @@ fi
 
 blender-4.2.2-linux-x64/blender -b --python ${SCRIPT} -noaudio -E 'CYCLES' -o //render_ -f 1 -F 'PNG'
 
-##### copy output
-#
-#  
+ls -l .
